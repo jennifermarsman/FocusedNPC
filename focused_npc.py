@@ -141,9 +141,6 @@ with gr.Blocks() as demo:
         with gr.Column():
             gr.Image(value="spirit_guide.png", show_label=False, interactive=False, show_download_button=False)
         with gr.Column():
-            #chatbot = gr.Chatbot(placeholder="<strong>Your Personal Yes-Man</strong><br>Ask Me Anything")
-            #chatbot.like(vote, None, None)
-            #gr.ChatInterface(fn=alternatingly_agree, chatbot=gr.Chatbot(placeholder="<strong>Your Personal Yes-Man</strong><br>Ask Me Anything"))
             gr.ChatInterface(fn=predict)
     
 demo.launch()

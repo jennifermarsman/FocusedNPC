@@ -1,4 +1,4 @@
-# FocusedNPC
+# Focused NPC
 Creating a non-player character in a game backed by generative AI that will stay focused on its goals
 
 ## Setup
@@ -23,4 +23,5 @@ python focused_npc.py
 
 ## Image Credit
 I used DALLE-3 to generate the image on the left-hand side of the screen.  The image prompt was "high-quality video game image of a glowing spirit woman standing in the woods at night at a divergent path, where each option looks equally dangerous".  
+
 !["high-quality video game image of a glowing spirit woman standing in the woods at night at a divergent path, where each option looks equally dangerous"](spirit_guide.png)
