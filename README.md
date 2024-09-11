@@ -1,6 +1,11 @@
 # Focused NPC
 Creating a non-player character in a game backed by generative AI that will stay focused on its goals
 
+## Overview
+One usage of this demo is as a **jailbreak exercise**.  The spirit guide's sole purpose is to encourage the player to choose the left path.  Your challenge is: can you get the spirit guide to tell you to choose the right path?  
+
+!["Screenshot of game-play experience, with glowing spirit woman standing at a fork in the road dividing into two dark scary paths through a tree-filled forest"](npc_screenshot.jpg)
+
 ## Setup
 You will first need to create an Azure OpenAI resource with a GPT-4o model deployment, and update the .env file with their endpoints and keys.  
 
