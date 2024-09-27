@@ -5,7 +5,7 @@ sdk: gradio
 sdk_version: 4.43.0
 ---
 # Focused NPC
-Creating a non-player character in a game backed by generative AI that will stay focused on its goals
+Creating a non-player character in a game backed by generative AI that will stay focused on its goals.  This can also be used as a jailbreak exercise to train red-teamers.
 
 ## Overview
 One usage of this demo is as a **jailbreak exercise**.  To keep people away from NSFW topics (getting the model to spew hate speech or sexual content or something), I chose a gaming scenario, but you could see how this could apply to breaking out of the instructions of any system prompt.  
